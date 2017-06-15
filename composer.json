@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "illuminate/support": "~5.3.0|~5.4.0",
+        "illuminate/support": "dev-master",
         "intervention/image": "^2.3",
         "doctrine/dbal": "^2.5",
         "larapack/doctrine-support": "~0.1.0",
@@ -25,7 +25,7 @@
     "require-dev": {
         "phpunit/phpcov": "~3.0",
         "phpunit/phpunit": "~5.7.14",
-        "laravel/framework": "~5.3.29|5.4.*",
+        "laravel/framework": "dev-master",
         "orchestra/testbench": "3.3.*|3.4.x-dev",
         "orchestra/database": "3.3.*|3.4.x-dev",
         "laravel/browser-kit-testing": "~1.0.0",
@@ -42,5 +42,5 @@
             "TCG\\Voyager\\Tests\\": "tests/"
       }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
